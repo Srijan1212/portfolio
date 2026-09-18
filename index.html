@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Srijan Dhungana – Web Developer Portfolio</title>
+
+<link rel="icon" type="image/png" href="images.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="top">
+  <div class="wrap">
+
+    <a class="mark" href="index.html">
+      <img src="images.png" alt="Srijan Dhungana">
+    </a>
+
+    <nav aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<main>
+
+  <div class="hero">
+    <div class="wrap">
+
+      <div>
+
+        <h1>
+          I am a <span id="typing"></span>
+        </h1>
+
+        <p class="lead">
+          I'm a BSc CSIT student who builds
+          <strong>practical web software</strong>,
+          from the database to the screen. My latest project is
+          a booking system now used by a real veterinary clinic
+          in Nepal.
+        </p>
+
+        <div class="actions">
+
+          <a class="btn primary" href="projects.html">
+            See my projects
+          </a>
+
+          <a class="btn ghost" href="contact.html">
+            Get in touch
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="clock-box">
+
+        <svg viewBox="0 0 200 200"
+             role="img"
+             aria-label="Analog clock showing your local time">
+
+          <circle class="face" cx="100" cy="100" r="94"/>
+
+          <g id="ticks"></g>
+
+          <line class="hand-h"
+                id="hh"
+                x1="100"
+                y1="100"
+                x2="100"
+                y2="58"/>
+
+          <line class="hand-m"
+                id="hm"
+                x1="100"
+                y1="100"
+                x2="100"
+                y2="34"/>
+
+          <line class="hand-s"
+                id="hs"
+                x1="100"
+                y1="112"
+                x2="100"
+                y2="26"/>
+
+          <circle class="pivot"
+                  cx="100"
+                  cy="100"
+                  r="5"/>
+
+        </svg>
+
+        <p class="cap">
+          A live SVG clock, the same technique behind my
+          Timekeeper app.
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+
+<footer>
+  <div class="wrap">
+    © <span id="yr"></span> Srijan Dhungana.
+    Built by hand with HTML, CSS, and JavaScript.
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
